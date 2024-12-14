@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+    
+        width: 90%;
+    margin: auto;
+  }
+  
+    }
+    
+    .container {
+        max-width:100px;
+        margin: auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+        text-align: center;
+        color: #333; 
+    }
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    th, td {
+        padding: 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    .td1{
+    background-color:  rgb(139, 192, 139);
+    }
+    
+    td img {
+        width: 100px;
+        height: auto;
+    }
+    
+    tr:hover {
+        background-color: #f1f1f1;
+    }
+    .quantity-box {
+        display: flex;
+        align-items: center;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 3px;
+        background: white;
+    }
+    
+    button {
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    button:hover {
+        background-color: #0056b3;
+    }
+    
+    input {
+        width: 30px;
+        text-align: center;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+        margin: 0 5px;
+        font-size: 16px;
+    }
+    
+    
+    
+    
+    </style>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="container">
+        <h1>  
+            iphone lelo
+        </h1>
+        <table>
+            <thead>
+                <tr class=" td1">
+                    <th>Product</th>
+                   <th>Checkbox</th>
+                    <th>Description</th>
+                   <th>Quentity</th>
+                    <th>Price</th>
+                   <th>   Buy iPhone      </th><th>Cancle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr >
+                    <td ><img src="https://media.istockphoto.com/id/1364620309/photo/iphone-13-pro.jpg?s=612x612&w=0&k=20&c=2h5Q46wh-eRyPwh4KKnJhCKFWqcd2ltgv9tdaULDdbc=" alt="Product 1"></td>
+                   <td> <input type="checkbox"></td>
+                    <td>iPhone 11 Pro</td>
+                    <td> <div class="quantity-box">
+        <button id="decrease">-</button>
+        <input type="number" id="quantity" value="1" min="1" readonly>
+        <button id="increase">+</button>
+    </div></td> <td>$100.00 </td> <td> 
+        <div class="container">
+        <button class="buy-button">Buy Now</button>
+    </div> </td><td> <div>X</div></td>
+</tr>
+                </tr>
+               
+                <tr>
+                    <td><img src="https://media.istockphoto.com/id/1190447864/photo/apple-iphone-11-pro-gray-smartphone.jpg?s=612x612&w=0&k=20&c=zETLJeguLoTEFBNKPl1vjPY1lvPW1uM6GPpyiMSvsC0=" alt="Product 2"></td>
+                  <td> <input type="checkbox"></td> <td> iPhone 12 Pro</td><td><div class="quantity-box">
+        <button id="decrease">-</button>
+        <input type="number" id="quantity" value="1" min="1" readonly>
+        <button id="increase">+</button>
+    </div> </td>
+                    <td>$100.00</td> <td><div class="container">
+                        <button class="buy-button">Buy Now</button>
+                    </div></td> <td> <div>X</div></td>
+                </tr>
+
+                <tr>
+                    <td><img src="https://media.istockphoto.com/id/1308776367/photo/iphone-12-pro-max-pasific-blue.jpg?s=612x612&w=0&k=20&c=NLmtH3d4TgKYuhwvZ8gAuJY5r_CrcQH6JTHNAfTm7CM=" alt="Product 3"></td> <td><input type="checkbox" name="" id=""></td>
+                    <td>iPhone 13 Pro   </td> <td> <div class="quantity-box">
+                        <button id="decrease">-</button>
+                        <input type="number" id="quantity" value="1" min="1" readonly>
+                        <button id="increase">+</button>
+                    </div></td>
+                    <td>$100.00</td><td><div class="container">
+                        <button class="buy-button">Buy Now</button>
+                    </div></td><td> <div>X</div></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td><img src="https://media.istockphoto.com/id/1371695315/photo/iphone-13-pro-sierra-blue.jpg?s=612x612&w=0&k=20&c=-0Mr9DdIRHFoLUozdltlHdkum0ChCNTGfLhxc-3oHmI=" alt="Product 4"></td>
+                    <td><input type="checkbox"></td>
+                    <td>iPhone 14 Pro </td><td><div class="quantity-box">
+                        <button id="decrease">-</button>
+                        <input type="number" id="quantity" value="1" min="1" readonly>
+                        <button id="increase">+</button></td>
+                    <td>$100.00</td><td> <div class="container">
+                        <button class="buy-button">Buy Now</button></td><td> <div>X</div></td>
+                    </tr>
+                </tr>
+            </tbody>
+
+            
+        </table>
+       
+        <p><small style="color: lightgray;"> More ways to shop: Find an Apple Store or other retailer near you. Or call 1-800-MY-APPLE. <br>United States
+            Copyright © 2024 Apple Inc. All rights reserved.Privacy Policy Terms of Use Sales and Refunds Legal Site Map    .</small></p>
+    </div>
+    
+</body>
+</html>
